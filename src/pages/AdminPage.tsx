@@ -954,7 +954,7 @@ export const AdminPage: React.FC = () => {
                   banner: {
                     title: 'New Promotional Campaign',
                     subtitle: 'Great discounts on student supplies',
-                    image_url: '/src/assets/images/hero_stationery_school_1794382961056.jpg',
+                    image_url: '/images/hero_stationery_school_1794382961056.jpg',
                     button_text: 'Shop Now',
                     button_link: '/shop',
                     display_order: banners.length + 1,

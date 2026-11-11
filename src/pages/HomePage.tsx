@@ -437,7 +437,7 @@ export const HomePage: React.FC = () => {
             {/* Promo Image */}
             <div className="lg:col-span-5 h-72 sm:h-80 lg:h-full min-h-[300px] overflow-hidden bg-[#FAF8F5]">
               <img
-                src="/src/assets/images/promo_stationery_gifts_1794382962939.jpg"
+                src="/images/promo_stationery_gifts_1794382962939.jpg"
                 alt="Stationery gift hamper"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
               />

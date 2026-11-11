@@ -114,8 +114,9 @@ export interface DatabaseSchema {
   settings: StoreSettings;
 }
 
-const DATA_DIR = path.resolve(process.cwd(), 'data');
-const DB_FILE = path.resolve(DATA_DIR, 'store.json');
+const BUNDLED_DB_FILE = path.resolve(process.cwd(), 'data', 'store.json');
+const DB_FILE = process.env.VERCEL ? path.join('/tmp', 'mahavir-store.json') : BUNDLED_DB_FILE;
+const DATA_DIR = path.dirname(DB_FILE);
 
 // Initial seed data
 const initialCategories: Category[] = [
@@ -234,7 +235,7 @@ const initialProducts: Product[] = [
     category_id: 'cat-notebooks',
     category_name: 'Notebooks & Papers',
     images: [
-      '/src/assets/images/hero_stationery_school_1794382961056.jpg',
+      '/images/hero_stationery_school_1794382961056.jpg',
       'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80',
     ],
     is_new: false,
@@ -306,7 +307,7 @@ const initialProducts: Product[] = [
     category_id: 'cat-pens',
     category_name: 'Pens & Pencils',
     images: [
-      '/src/assets/images/hero_stationery_school_1794382961056.jpg',
+      '/images/hero_stationery_school_1794382961056.jpg',
       'https://images.unsplash.com/photo-1585336261026-77884d673898?auto=format&fit=crop&w=800&q=80',
     ],
     is_new: false,
@@ -378,7 +379,7 @@ const initialProducts: Product[] = [
     category_id: 'cat-art',
     category_name: 'Art & Craft',
     images: [
-      '/src/assets/images/hero_art_craft_supplies_1794382964948.jpg',
+      '/images/hero_art_craft_supplies_1794382964948.jpg',
       'https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80',
     ],
     is_new: false,
@@ -523,7 +524,7 @@ const initialProducts: Product[] = [
     category_id: 'cat-edu-toys',
     category_name: 'Educational Toys',
     images: [
-      '/src/assets/images/hero_educational_toys_1794382963964.jpg',
+      '/images/hero_educational_toys_1794382963964.jpg',
       'https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=800&q=80',
     ],
     is_new: false,
@@ -547,7 +548,7 @@ const initialProducts: Product[] = [
     category_id: 'cat-edu-toys',
     category_name: 'Educational Toys',
     images: [
-      '/src/assets/images/hero_educational_toys_1794382963964.jpg',
+      '/images/hero_educational_toys_1794382963964.jpg',
       'https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=800&q=80',
     ],
     is_new: false,
@@ -742,7 +743,7 @@ const initialProducts: Product[] = [
     category_id: 'cat-gifts',
     category_name: 'Gifts & Accessories',
     images: [
-      '/src/assets/images/promo_stationery_gifts_1794382962939.jpg',
+      '/images/promo_stationery_gifts_1794382962939.jpg',
       'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=800&q=80',
     ],
     is_new: true,
@@ -784,7 +785,7 @@ const initialBanners: Banner[] = [
     id: 'ban-01',
     title: 'Back to School Essentials',
     subtitle: 'From premium notebooks and precision pens to ergonomic backpacks. Everything your student needs to excel.',
-    image_url: '/src/assets/images/hero_stationery_school_1794382961056.jpg',
+    image_url: '/images/hero_stationery_school_1794382961056.jpg',
     button_text: 'Shop School Supplies',
     button_link: '/shop?category=cat-notebooks',
     display_order: 1,
@@ -794,7 +795,7 @@ const initialBanners: Banner[] = [
     id: 'ban-02',
     title: 'Explore Our Amazing Toys & Games',
     subtitle: 'Spark curiosity, creative problem-solving and boundless joy with STEM kits, board games and safe kids toys.',
-    image_url: '/src/assets/images/hero_educational_toys_1794382963964.jpg',
+    image_url: '/images/hero_educational_toys_1794382963964.jpg',
     button_text: 'Discover Toys & Games',
     button_link: '/shop?category=cat-edu-toys',
     display_order: 2,
@@ -804,7 +805,7 @@ const initialBanners: Banner[] = [
     id: 'ban-03',
     title: 'Creativity Starts Here: Art & Craft',
     subtitle: 'Rich artist acrylics, fine brushes, sketchbooks and vibrant crafting materials for imaginative minds.',
-    image_url: '/src/assets/images/hero_art_craft_supplies_1794382964948.jpg',
+    image_url: '/images/hero_art_craft_supplies_1794382964948.jpg',
     button_text: 'Explore Art Collection',
     button_link: '/shop?category=cat-art',
     display_order: 3,
@@ -926,8 +927,13 @@ class Database {
       if (!fs.existsSync(DATA_DIR)) {
         fs.mkdirSync(DATA_DIR, { recursive: true });
       }
-      if (fs.existsSync(DB_FILE)) {
-        const raw = fs.readFileSync(DB_FILE, 'utf-8');
+      const sourceFile = fs.existsSync(DB_FILE)
+        ? DB_FILE
+        : fs.existsSync(BUNDLED_DB_FILE)
+          ? BUNDLED_DB_FILE
+          : null;
+      if (sourceFile) {
+        const raw = fs.readFileSync(sourceFile, 'utf-8');
         const parsed: DatabaseSchema = JSON.parse(raw);
         if (parsed.settings && !parsed.settings.whatsapp_default_message) {
           parsed.settings.whatsapp_default_message = initialSettings.whatsapp_default_message;
