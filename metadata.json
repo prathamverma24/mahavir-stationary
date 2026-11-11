@@ -1,0 +1,8 @@
+{
+  "name": "Shri Mahaveer Stationery & Toys",
+  "description": "Premium e-commerce storefront for school supplies, books, art essentials, educational toys and games with instant WhatsApp ordering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,800 @@
+{
+  "categories": [
+    {
+      "id": "cat-notebooks",
+      "name": "Notebooks & Papers",
+      "slug": "notebooks-papers",
+      "description": "School notebooks, practical records, spiral longbooks & drawing pads",
+      "image_url": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80",
+      "display_order": 1,
+      "is_active": true
+    },
+    {
+      "id": "cat-pens",
+      "name": "Pens & Pencils",
+      "slug": "pens-pencils",
+      "description": "Ball pens, gel pens, rollerballs, wooden & mechanical pencils",
+      "image_url": "https://images.unsplash.com/photo-1585336261026-77884d673898?auto=format&fit=crop&w=600&q=80",
+      "display_order": 2,
+      "is_active": true
+    },
+    {
+      "id": "cat-art",
+      "name": "Art & Craft",
+      "slug": "art-craft",
+      "description": "Acrylic paints, watercolors, sketchpads, brushes & craft sheets",
+      "image_url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=600&q=80",
+      "display_order": 3,
+      "is_active": true
+    },
+    {
+      "id": "cat-bags",
+      "name": "School Bags",
+      "slug": "school-bags",
+      "description": "Ergonomic backpacks, themed character bags, pouches & accessories",
+      "image_url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=600&q=80",
+      "display_order": 4,
+      "is_active": true
+    },
+    {
+      "id": "cat-bottles",
+      "name": "Bottles & Tiffins",
+      "slug": "bottles-tiffins",
+      "description": "Insulated thermosteel bottles, leakproof lunchboxes & sippers",
+      "image_url": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=600&q=80",
+      "display_order": 5,
+      "is_active": true
+    },
+    {
+      "id": "cat-edu-toys",
+      "name": "Educational Toys",
+      "slug": "educational-toys",
+      "description": "STEM building kits, world map puzzles, flashcards & abacus",
+      "image_url": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=600&q=80",
+      "display_order": 6,
+      "is_active": true
+    },
+    {
+      "id": "cat-sports",
+      "name": "Sports Items",
+      "slug": "sports-items",
+      "description": "Cricket sets, badminton rackets, footballs, skipping ropes",
+      "image_url": "https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?auto=format&fit=crop&w=600&q=80",
+      "display_order": 7,
+      "is_active": true
+    },
+    {
+      "id": "cat-kids-toys",
+      "name": "Kids Toys",
+      "slug": "kids-toys",
+      "description": "Stunt remote cars, kitchen play sets, action heroes & construction toys",
+      "image_url": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=600&q=80",
+      "display_order": 8,
+      "is_active": true
+    },
+    {
+      "id": "cat-soft-toys",
+      "name": "Soft Toys",
+      "slug": "soft-toys",
+      "description": "Plush teddy bears, huggable animal cushions & cartoon soft toys",
+      "image_url": "https://images.unsplash.com/photo-1559454403-b8fb88521f11?auto=format&fit=crop&w=600&q=80",
+      "display_order": 9,
+      "is_active": true
+    },
+    {
+      "id": "cat-games",
+      "name": "Games",
+      "slug": "games",
+      "description": "Monopoly, UNO cards, Carrom boards, Chess & family board games",
+      "image_url": "https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?auto=format&fit=crop&w=600&q=80",
+      "display_order": 10,
+      "is_active": true
+    },
+    {
+      "id": "cat-gifts",
+      "name": "Gifts & Accessories",
+      "slug": "gifts-accessories",
+      "description": "Stationery gift sets, fancy desk organizers, novelty pens & diaries",
+      "image_url": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=600&q=80",
+      "display_order": 11,
+      "is_active": true
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-001",
+      "name": "Classmate Spiral Longbook (Single Line, 240 Pages, Pack of 3)",
+      "slug": "classmate-spiral-longbook-pack-3",
+      "sku": "SM-NB-01",
+      "description": "Premium chlorine-free paper notebook with sturdy twin wire-o spiral binding. Smooth 70 GSM writing surface suitable for fountain and gel pens with no ink bleed-through.",
+      "selling_price": 240,
+      "mrp": 285,
+      "stock_quantity": 44,
+      "category_id": "cat-notebooks",
+      "category_name": "Notebooks & Papers",
+      "images": [
+        "/src/assets/images/hero_stationery_school_1794382961056.jpg",
+        "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_new": false,
+      "is_featured": true,
+      "is_best_seller": true,
+      "is_active": true,
+      "rating": 4.8,
+      "review_count": 54,
+      "created_at": "2026-11-11T07:54:11.940Z",
+      "updated_at": "2026-11-11T07:54:11.940Z"
+    },
+    {
+      "id": "prod-002",
+      "name": "A4 Vibrant Origami & Craft Paper Sheets (100 Sheets, 10 Colors)",
+      "slug": "a4-vibrant-origami-craft-paper-100-sheets",
+      "sku": "SM-NB-02",
+      "description": "Assorted high-vibrancy double-sided craft and origami paper sheets. Ideal for school projects, 3D paper crafts, greeting cards and paper folding.",
+      "selling_price": 140,
+      "mrp": 180,
+      "stock_quantity": 60,
+      "category_id": "cat-notebooks",
+      "category_name": "Notebooks & Papers",
+      "images": [
+        "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_new": true,
+      "is_featured": false,
+      "is_best_seller": false,
+      "is_active": true,
+      "rating": 4.6,
+      "review_count": 22,
+      "created_at": "2026-11-11T07:54:11.940Z",
+      "updated_at": "2026-11-11T07:54:11.940Z"
+    },
+    {
+      "id": "prod-003",
+      "name": "Camlin Hardbound Practical Record Book (180 Pages, Interleaved)",
+      "slug": "camlin-hardbound-practical-record-book",
+      "sku": "SM-NB-03",
+      "description": "Standard science practical journal notebook with one side ruled and one side plain cartridge paper for diagrams. Durable hardbound cover.",
+      "selling_price": 110,
+      "mrp": 130,
+      "stock_quantity": 35,
+      "category_id": "cat-notebooks",
+      "category_name": "Notebooks & Papers",
+      "images": [
+        "https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_new": false,
+      "is_featured": false,
+      "is_best_seller": true,
+      "is_active": true,
+      "rating": 4.7,
+      "review_count": 31,
+      "created_at": "2026-11-11T07:54:11.940Z",
+      "updated_at": "2026-11-11T07:54:11.940Z"
+    },
+    {
+      "id": "prod-004",
+      "name": "Hauser XO Retractable Ball Pen (Blue Ink, Pack of 5)",
+      "slug": "hauser-xo-retractable-ball-pen-pack-5",
+      "sku": "SM-PEN-01",
+      "description": "Ultra-low viscosity German ink technology for effortless and smudge-free writing. Soft ergonomic rubber grip with click retractable mechanism.",
+      "selling_price": 90,
+      "mrp": 100,
+      "stock_quantity": 80,
+      "category_id": "cat-pens",
+      "category_name": "Pens & Pencils",
+      "images": [
+        "/src/assets/images/hero_stationery_school_1794382961056.jpg",
+        "https://images.unsplash.com/photo-1585336261026-77884d673898?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_new": false,
+      "is_featured": true,
+      "is_best_seller": true,
+      "is_active": true,
+      "rating": 4.9,
+      "review_count": 88,
+      "created_at": "2026-11-11T07:54:11.940Z",
+      "updated_at": "2026-11-11T07:54:11.940Z"
+    },
+    {
+      "id": "prod-005",
+      "name": "Faber-Castell Triangular Drawing Pencils Set (12 Grades: 2B - 8B)",
+      "slug": "faber-castell-triangular-drawing-pencils-set",
+      "sku": "SM-PEN-02",
+      "description": "Professional grade graphite sketching pencils with SV bonded break-resistant leads. Ergonomic triangular barrel for tireless sketching and shading.",
+      "selling_price": 180,
+      "mrp": 220,
+      "stock_quantity": 30,
+      "category_id": "cat-pens",
+      "category_name": "Pens & Pencils",
+      "images": [
+        "https://images.unsplash.com/photo-1516962215378-7fa2e137ae93?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_new": true,
+      "is_featured": true,
+      "is_best_seller": false,
+      "is_active": true,
+      "rating": 4.8,
+      "review_count": 19,
+      "created_at": "2026-11-11T07:54:11.940Z",
+      "updated_at": "2026-11-11T07:54:11.940Z"
+    },
+    {
+      "id": "prod-006",
+      "name": "Pilot V5 Hi-Tecpoint Liquid Ink Rollerball Pen (Pack of 3)",
+      "slug": "pilot-v5-hi-tecpoint-liquid-ink-pen-3pack",
+      "sku": "SM-PEN-03",
+      "description": "Legendary pure liquid ink rollerball pen with unique multi-dimple tip. Delivers precise 0.5mm razor-sharp lines with smooth continuous flow.",
+      "selling_price": 210,
+      "mrp": 240,
+      "stock_quantity": 40,
+      "category_id": "cat-pens",
+      "category_name": "Pens & Pencils",
+      "images": [
+        "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_new": false,
+      "is_featured": false,
+      "is_best_seller": true,
+      "is_active": true,
+      "rating": 4.9,
+      "review_count": 67,
+      "created_at": "2026-11-11T07:54:11.940Z",
+      "updated_at": "2026-11-11T07:54:11.940Z"
+    },
+    {
+      "id": "prod-007",
+      "name": "Camel Artist Acrylic Colors (12 Shades x 20ml Tubes Kit)",
+      "slug": "camel-artist-acrylic-colors-12-shades",
+      "sku": "SM-ART-01",
+      "description": "Rich, high-pigment acrylic tubes with satin finish. Water-soluble when wet and permanent water-resistant when dry. Perfect for canvas, wood, terracotta and paper.",
+      "selling_price": 380,
+      "mrp": 450,
+      "stock_quantity": 25,
+      "category_id": "cat-art",
+      "category_name": "Art & Craft",
+      "images": [
+        "/src/assets/images/hero_art_craft_supplies_1794382964948.jpg",
+        "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_new": false,
+      "is_featured": true,
+      "is_best_seller": true,
+      "is_active": true,
+      "rating": 4.8,
+      "review_count": 42,
+      "created_at": "2026-11-11T07:54:11.940Z",
+      "updated_at": "2026-11-11T07:54:11.940Z"
+    },
+    {
+      "id": "prod-008",
+      "name": "Faber-Castell Connector Felt Pens (25 Assorted Colors with Clips)",
+      "slug": "faber-castell-connector-pens-25-shades",
+      "sku": "SM-ART-02",
+      "description": "Bright and vibrant food-grade washable marker pens. Unique interlocking caps allow children to clip pens together to build creative models while coloring.",
+      "selling_price": 190,
+      "mrp": 230,
+      "stock_quantity": 50,
+      "category_id": "cat-art",
+      "category_name": "Art & Craft",
+      "images": [
+        "https://images.unsplash.com/photo-1595152772835-219674b2a8a6?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_new": true,
+      "is_featured": true,
+      "is_best_seller": false,
+      "is_active": true,
+      "rating": 4.7,
+      "review_count": 28,
+      "created_at": "2026-11-11T07:54:11.940Z",
+      "updated_at": "2026-11-11T07:54:11.940Z"
+    },
+    {
+      "id": "prod-009",
+      "name": "Ergonomic Waterproof Kids School Backpack (Spacious 3-Compartment)",
+      "slug": "ergonomic-waterproof-kids-school-backpack",
+      "sku": "SM-BAG-01",
+      "description": "Durable tear-resistant polyester school bag with padded air-mesh back support, adjustable shoulder straps, reflective safety strips and dual bottle holders.",
+      "selling_price": 799,
+      "mrp": 1199,
+      "stock_quantity": 18,
+      "category_id": "cat-bags",
+      "category_name": "School Bags",
+      "images": [
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_new": true,
+      "is_featured": true,
+      "is_best_seller": false,
+      "is_active": true,
+      "rating": 4.7,
+      "review_count": 15,
+      "created_at": "2026-11-11T07:54:11.940Z",
+      "updated_at": "2026-11-11T07:54:11.940Z"
+    },
+    {
+      "id": "prod-010",
+      "name": "Multi-Function Cartoon Pencil Box with Dual Sharpeners & Calculator",
+      "slug": "multi-function-cartoon-pencil-box-popout",
+      "sku": "SM-BAG-02",
+      "description": "Interactive magnetic pencil case with push-button pop-out compartments, built-in dual pencil sharpener, mini calculator and eraser holder.",
+      "selling_price": 280,
+      "mrp": 350,
+      "stock_quantity": 35,
+      "category_id": "cat-bags",
+      "category_name": "School Bags",
+      "images": [
+        "https://images.unsplash.com/photo-1588072432836-e10032774350?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_new": false,
+      "is_featured": false,
+      "is_best_seller": true,
+      "is_active": true,
+      "rating": 4.6,
+      "review_count": 36,
+      "created_at": "2026-11-11T07:54:11.940Z",
+      "updated_at": "2026-11-11T07:54:11.940Z"
+    },
+    {
+      "id": "prod-011",
+      "name": "Milton Thermosteel Insulated Water Bottle (750ml, Hot & Cold 24hr)",
+      "slug": "milton-thermosteel-insulated-water-bottle-750ml",
+      "sku": "SM-BOT-01",
+      "description": "100% rust-proof 304 grade stainless steel vacuum insulated flask. Keeps drinks icy cold or steaming hot for 24 hours. Leakproof flip-lid with carry strap.",
+      "selling_price": 649,
+      "mrp": 790,
+      "stock_quantity": 22,
+      "category_id": "cat-bottles",
+      "category_name": "Bottles & Tiffins",
+      "images": [
+        "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_new": false,
+      "is_featured": true,
+      "is_best_seller": true,
+      "is_active": true,
+      "rating": 4.9,
+      "review_count": 53,
+      "created_at": "2026-11-11T07:54:11.940Z",
+      "updated_at": "2026-11-11T07:54:11.940Z"
+    },
+    {
+      "id": "prod-012",
+      "name": "Cello Stainless Steel 3-Tier Leakproof Kids Lunch Tiffin Box",
+      "slug": "cello-stainless-steel-3-tier-tiffin-box",
+      "sku": "SM-BOT-02",
+      "description": "Food grade BPA-free airtight tiffin box with stainless steel inner containers. Keeps food warm and fresh with silicone gasket leak-prevention seal.",
+      "selling_price": 499,
+      "mrp": 620,
+      "stock_quantity": 26,
+      "category_id": "cat-bottles",
+      "category_name": "Bottles & Tiffins",
+      "images": [
+        "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_new": true,
+      "is_featured": false,
+      "is_best_seller": false,
+      "is_active": true,
+      "rating": 4.8,
+      "review_count": 24,
+      "created_at": "2026-11-11T07:54:11.940Z",
+      "updated_at": "2026-11-11T07:54:11.940Z"
+    },
+    {
+      "id": "prod-013",
+      "name": "Skillmatics World Map Geography STEM Floor Puzzle (100 Pieces)",
+      "slug": "skillmatics-world-map-geography-puzzle",
+      "sku": "SM-EDU-01",
+      "description": "Extra thick jigsaw puzzle pieces featuring countries, landmarks, wildlife and ocean geography. Includes educational fact cards and interactive search-and-find activity.",
+      "selling_price": 450,
+      "mrp": 599,
+      "stock_quantity": 20,
+      "category_id": "cat-edu-toys",
+      "category_name": "Educational Toys",
+      "images": [
+        "/src/assets/images/hero_educational_toys_1794382963964.jpg",
+        "https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_new": false,
+      "is_featured": true,
+      "is_best_seller": true,
+      "is_active": true,
+      "rating": 4.9,
+      "review_count": 48,
+      "created_at": "2026-11-11T07:54:11.940Z",
+      "updated_at": "2026-11-11T07:54:11.940Z"
+    },
+    {
+      "id": "prod-014",
+      "name": "Classic Wooden Abacus 10-Row Counting & Math Frame",
+      "slug": "classic-wooden-abacus-counting-frame",
+      "sku": "SM-EDU-02",
+      "description": "Handcrafted solid natural pine wood abacus with 100 smooth rainbow-painted counting beads. Develops spatial math ability and fine motor coordination.",
+      "selling_price": 320,
+      "mrp": 420,
+      "stock_quantity": 28,
+      "category_id": "cat-edu-toys",
+      "category_name": "Educational Toys",
+      "images": [
+        "/src/assets/images/hero_educational_toys_1794382963964.jpg",
+        "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_new": false,
+      "is_featured": false,
+      "is_best_seller": false,
+      "is_active": true,
+      "rating": 4.8,
+      "review_count": 17,
+      "created_at": "2026-11-11T07:54:11.940Z",
+      "updated_at": "2026-11-11T07:54:11.940Z"
+    },
+    {
+      "id": "prod-015",
+      "name": "Yonex Carbon Shaft Badminton Racket Set with 3 Shuttlecocks",
+      "slug": "yonex-badminton-racket-set-with-shuttles",
+      "sku": "SM-SPT-01",
+      "description": "Lightweight isometric aluminum-carbon frame with high-tension nylon gutting. Set includes 2 rackets, full zipped thermal cover and a tube of 3 durable nylon shuttlecocks.",
+      "selling_price": 899,
+      "mrp": 1250,
+      "stock_quantity": 15,
+      "category_id": "cat-sports",
+      "category_name": "Sports Items",
+      "images": [
+        "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_new": false,
+      "is_featured": true,
+      "is_best_seller": true,
+      "is_active": true,
+      "rating": 4.8,
+      "review_count": 39,
+      "created_at": "2026-11-11T07:54:11.940Z",
+      "updated_at": "2026-11-11T07:54:11.940Z"
+    },
+    {
+      "id": "prod-016",
+      "name": "Cosco Dynamo Hand-Stitched All-Weather Football (Size 5)",
+      "slug": "cosco-dynamo-hand-stitched-football-size-5",
+      "sku": "SM-SPT-02",
+      "description": "Top-tier synthetic leather 32-panel hand-stitched football with latex bladder for shape retention and high air pressure stability on turf or grass.",
+      "selling_price": 680,
+      "mrp": 850,
+      "stock_quantity": 18,
+      "category_id": "cat-sports",
+      "category_name": "Sports Items",
+      "images": [
+        "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_new": true,
+      "is_featured": false,
+      "is_best_seller": false,
+      "is_active": true,
+      "rating": 4.7,
+      "review_count": 21,
+      "created_at": "2026-11-11T07:54:11.940Z",
+      "updated_at": "2026-11-11T07:54:11.940Z"
+    },
+    {
+      "id": "prod-017",
+      "name": "Hot Wheels 5-Car Themed Die-Cast Collector Gift Pack",
+      "slug": "hot-wheels-5-car-gift-pack",
+      "sku": "SM-TOY-01",
+      "description": "Authentic 1:64 scale die-cast metal vehicles with authentic styling and eye-catching decos. Ready for speed tracks and collector showcases.",
+      "selling_price": 699,
+      "mrp": 799,
+      "stock_quantity": 32,
+      "category_id": "cat-kids-toys",
+      "category_name": "Kids Toys",
+      "images": [
+        "https://images.unsplash.com/photo-1594787318286-3d835c1d207f?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_new": false,
+      "is_featured": true,
+      "is_best_seller": true,
+      "is_active": true,
+      "rating": 4.9,
+      "review_count": 73,
+      "created_at": "2026-11-11T07:54:11.940Z",
+      "updated_at": "2026-11-11T07:54:11.940Z"
+    },
+    {
+      "id": "prod-018",
+      "name": "360° Rotating Stunt RC Car with LED Headlights & USB Charger",
+      "slug": "360-rotating-stunt-rc-car-rechargeable",
+      "sku": "SM-TOY-02",
+      "description": "Double-sided driving remote control car that flips, spins, and overcomes obstacles with high-grip soft rubber tires. Long lasting rechargeable battery included.",
+      "selling_price": 949,
+      "mrp": 1399,
+      "stock_quantity": 14,
+      "category_id": "cat-kids-toys",
+      "category_name": "Kids Toys",
+      "images": [
+        "https://images.unsplash.com/photo-1558611848-73f7eb4001a1?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_new": true,
+      "is_featured": true,
+      "is_best_seller": false,
+      "is_active": true,
+      "rating": 4.8,
+      "review_count": 27,
+      "created_at": "2026-11-11T07:54:11.940Z",
+      "updated_at": "2026-11-11T07:54:11.940Z"
+    },
+    {
+      "id": "prod-019",
+      "name": "Premium Plush Brown Huggable Teddy Bear (40 cm, Hypoallergenic)",
+      "slug": "premium-plush-brown-teddy-bear-40cm",
+      "sku": "SM-SFT-01",
+      "description": "Super-soft velvety fur teddy bear filled with 100% virgin conjugate microfiber. Skin-safe, non-toxic and easily machine washable.",
+      "selling_price": 499,
+      "mrp": 699,
+      "stock_quantity": 24,
+      "category_id": "cat-soft-toys",
+      "category_name": "Soft Toys",
+      "images": [
+        "https://images.unsplash.com/photo-1559454403-b8fb88521f11?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_new": false,
+      "is_featured": true,
+      "is_best_seller": true,
+      "is_active": true,
+      "rating": 4.9,
+      "review_count": 45,
+      "created_at": "2026-11-11T07:54:11.940Z",
+      "updated_at": "2026-11-11T07:54:11.940Z"
+    },
+    {
+      "id": "prod-020",
+      "name": "Mattel UNO Classic Card Game (Original 112 Cards Edition)",
+      "slug": "mattel-uno-classic-card-game-original",
+      "sku": "SM-GAM-01",
+      "description": "The world-famous fast-paced family color matching card game. Includes customizable wild cards to create your own family game night rules.",
+      "selling_price": 135,
+      "mrp": 149,
+      "stock_quantity": 75,
+      "category_id": "cat-games",
+      "category_name": "Games",
+      "images": [
+        "https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_new": false,
+      "is_featured": false,
+      "is_best_seller": true,
+      "is_active": true,
+      "rating": 4.9,
+      "review_count": 92,
+      "created_at": "2026-11-11T07:54:11.940Z",
+      "updated_at": "2026-11-11T07:54:11.940Z"
+    },
+    {
+      "id": "prod-021",
+      "name": "Funskool Monopoly India Edition Board Game",
+      "slug": "funskool-monopoly-india-edition-board-game",
+      "sku": "SM-GAM-02",
+      "description": "Classic real estate trading board game featuring prime Indian cities and landmarks. Teaches financial awareness, negotiation and strategic decision-making.",
+      "selling_price": 649,
+      "mrp": 799,
+      "stock_quantity": 19,
+      "category_id": "cat-games",
+      "category_name": "Games",
+      "images": [
+        "https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_new": true,
+      "is_featured": true,
+      "is_best_seller": false,
+      "is_active": true,
+      "rating": 4.8,
+      "review_count": 34,
+      "created_at": "2026-11-11T07:54:11.940Z",
+      "updated_at": "2026-11-11T07:54:11.940Z"
+    },
+    {
+      "id": "prod-022",
+      "name": "Curated Birthday Stationery Gift Hamper Box (With Plush Bunny & Pastel Journal)",
+      "slug": "curated-birthday-stationery-gift-hamper-box",
+      "sku": "SM-GFT-01",
+      "description": "Delightful gift package containing a gold-foil hardbound notebook, 4 novelty cartoon gel pens, cute cloud paperclips, sticky notes and a mini plush bunny companion in a reusable wooden keepsake box with satin ribbon.",
+      "selling_price": 549,
+      "mrp": 750,
+      "stock_quantity": 15,
+      "category_id": "cat-gifts",
+      "category_name": "Gifts & Accessories",
+      "images": [
+        "/src/assets/images/promo_stationery_gifts_1794382962939.jpg",
+        "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_new": true,
+      "is_featured": true,
+      "is_best_seller": true,
+      "is_active": true,
+      "rating": 5,
+      "review_count": 29,
+      "created_at": "2026-11-11T07:54:11.940Z",
+      "updated_at": "2026-11-11T07:54:11.940Z"
+    },
+    {
+      "id": "prod-023",
+      "name": "Multi-Compartment Wooden Desk Organizer with Pen Stand & Drawer",
+      "slug": "multi-compartment-wooden-desk-organizer",
+      "sku": "SM-GFT-02",
+      "description": "Eco-friendly natural engineered wood desk tidy organizer. 5 vertical sorting slots for notebooks, letters, calculators and 2 pull-out drawers for pins and clips.",
+      "selling_price": 399,
+      "mrp": 550,
+      "stock_quantity": 20,
+      "category_id": "cat-gifts",
+      "category_name": "Gifts & Accessories",
+      "images": [
+        "https://images.unsplash.com/photo-1507842229451-7f01be837a27?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_new": false,
+      "is_featured": false,
+      "is_best_seller": false,
+      "is_active": true,
+      "rating": 4.7,
+      "review_count": 14,
+      "created_at": "2026-11-11T07:54:11.940Z",
+      "updated_at": "2026-11-11T07:54:11.940Z"
+    }
+  ],
+  "banners": [
+    {
+      "id": "ban-01",
+      "title": "Back to School Essentials",
+      "subtitle": "From premium notebooks and precision pens to ergonomic backpacks. Everything your student needs to excel.",
+      "image_url": "/src/assets/images/hero_stationery_school_1794382961056.jpg",
+      "button_text": "Shop School Supplies",
+      "button_link": "/shop?category=cat-notebooks",
+      "display_order": 1,
+      "is_active": true
+    },
+    {
+      "id": "ban-02",
+      "title": "Explore Our Amazing Toys & Games",
+      "subtitle": "Spark curiosity, creative problem-solving and boundless joy with STEM kits, board games and safe kids toys.",
+      "image_url": "/src/assets/images/hero_educational_toys_1794382963964.jpg",
+      "button_text": "Discover Toys & Games",
+      "button_link": "/shop?category=cat-edu-toys",
+      "display_order": 2,
+      "is_active": true
+    },
+    {
+      "id": "ban-03",
+      "title": "Creativity Starts Here: Art & Craft",
+      "subtitle": "Rich artist acrylics, fine brushes, sketchbooks and vibrant crafting materials for imaginative minds.",
+      "image_url": "/src/assets/images/hero_art_craft_supplies_1794382964948.jpg",
+      "button_text": "Explore Art Collection",
+      "button_link": "/shop?category=cat-art",
+      "display_order": 3,
+      "is_active": true
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1794383785573",
+      "order_number": "#MH-2026-4034",
+      "customer_name": "Aarav Gupta",
+      "customer_phone": "9897123456",
+      "delivery_address": "House 14, Main Road, Near Central School",
+      "city": "Roorkee",
+      "pincode": "247667",
+      "order_type": "Home Delivery",
+      "additional_notes": "",
+      "subtotal": 240,
+      "delivery_charge": 0,
+      "total_amount": 240,
+      "order_status": "Pending Request",
+      "items": [
+        {
+          "id": "item-1794383785573-mwuw",
+          "order_id": "ord-1794383785573",
+          "product_id": "prod-001",
+          "product_name": "Classmate Spiral Longbook (Single Line, 240 Pages, Pack of 3)",
+          "product_sku": "SM-NB-01",
+          "quantity": 1,
+          "unit_price": 240,
+          "line_total": 240
+        }
+      ],
+      "created_at": "2026-11-11T07:56:25.573Z"
+    },
+    {
+      "id": "ord-demo-001",
+      "order_number": "#MH-2026-1001",
+      "customer_name": "Aarav Mehta",
+      "customer_phone": "9876543210",
+      "delivery_address": "Flat 302, Green Valley Apartments, Civil Lines",
+      "city": "Roorkee",
+      "pincode": "247667",
+      "order_type": "Home Delivery",
+      "additional_notes": "Please ring bell twice or call before arriving",
+      "subtotal": 520,
+      "delivery_charge": 0,
+      "total_amount": 520,
+      "order_status": "Completed",
+      "items": [
+        {
+          "id": "item-01",
+          "order_id": "ord-demo-001",
+          "product_id": "prod-001",
+          "product_name": "Classmate Spiral Longbook (Single Line, 240 Pages, Pack of 3)",
+          "product_sku": "SM-NB-01",
+          "quantity": 1,
+          "unit_price": 240,
+          "line_total": 240
+        },
+        {
+          "id": "item-02",
+          "order_id": "ord-demo-001",
+          "product_id": "prod-010",
+          "product_name": "Multi-Function Cartoon Pencil Box with Dual Sharpeners & Calculator",
+          "product_sku": "SM-BAG-02",
+          "quantity": 1,
+          "unit_price": 280,
+          "line_total": 280
+        }
+      ],
+      "created_at": "2026-11-09T07:54:11.940Z"
+    },
+    {
+      "id": "ord-demo-002",
+      "order_number": "#MH-2026-1002",
+      "customer_name": "Pooja Verma",
+      "customer_phone": "9897123456",
+      "delivery_address": "In-Store Pickup",
+      "city": "Haridwar",
+      "pincode": "",
+      "order_type": "Store Pickup",
+      "additional_notes": "Will pick up today evening around 6 PM",
+      "subtotal": 450,
+      "delivery_charge": 0,
+      "total_amount": 450,
+      "order_status": "WhatsApp Confirmed",
+      "items": [
+        {
+          "id": "item-03",
+          "order_id": "ord-demo-002",
+          "product_id": "prod-013",
+          "product_name": "Skillmatics World Map Geography STEM Floor Puzzle (100 Pieces)",
+          "product_sku": "SM-EDU-01",
+          "quantity": 1,
+          "unit_price": 450,
+          "line_total": 450
+        }
+      ],
+      "created_at": "2026-11-11T02:54:11.940Z"
+    }
+  ],
+  "settings": {
+    "store_name": "Shri Mahavir Stationery & Toys",
+    "tagline": "Study • Play • Grow",
+    "logo_url": "/assets/aistudio/Shri_Mahavir_Stationery_Gift_Logo_f6dc5ae7.png",
+    "whatsapp_number": "919555257650",
+    "contact_number": "+91 95552 57650",
+    "email": "contact@shrimahavirstationery.com",
+    "address": "Shop No. 12, Main Market, Opp. Central School, Civil Lines",
+    "city": "Haridwar / Roorkee, Uttarakhand - 247667",
+    "opening_hours": "Monday – Saturday: 9:30 AM – 9:00 PM | Sunday: 10:00 AM – 8:00 PM",
+    "announcement_text": "✨ Welcome to Shri Mahavir Stationery & Toys! Fast WhatsApp Ordering with In-Store Pickup & Local Home Delivery ✨",
+    "delivery_settings": {
+      "home_delivery_available": true,
+      "store_pickup_available": true,
+      "delivery_charge_note": "As confirmed by store",
+      "free_delivery_above": 500
+    },
+    "social_links": {
+      "facebook": "https://facebook.com",
+      "instagram": "https://instagram.com",
+      "youtube": "https://youtube.com"
+    },
+    "currency": "INR",
+    "currency_symbol": "₹",
+    "policies": {
+      "privacy_policy": "We value your privacy. Your contact details, phone number and delivery addresses collected during checkout are used exclusively to process and fulfill your WhatsApp orders and store queries. We never sell, share or trade your personal information with external parties.",
+      "terms_and_conditions": "All items displayed on Shri Mahavir Stationery & Toys are subject to stock availability at our physical retail counter. WhatsApp order requests submitted via this website are confirmed once our store team verifies product availability, delivery slot and any applicable delivery charges with you directly on WhatsApp.",
+      "return_policy": "Stationery and toy items can be inspected during in-store pickup or upon delivery. If any manufacturing defect or damaged article is detected, please notify us via WhatsApp within 48 hours for immediate replacement or store exchange credit."
+    },
+    "admin_password_hash": "admin123",
+    "whatsapp_default_message": "Namaste! I want to enquire about school stationery and toys bulk orders."
+  }
+}
